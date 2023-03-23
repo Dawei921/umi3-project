@@ -15,4 +15,15 @@ export default [
       { path: '/mgt/one', name: '测试管理1', component: '@/pages/mgt/one' },
     ],
   },
+  {
+    path: '/img',
+    name: '图片管理',
+    routes: [
+      {
+        path: '/img/upload',
+        name: '上传图片',
+        component: '@/pages/img/upload',
+      },
+    ],
+  },
 ];
